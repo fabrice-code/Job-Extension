@@ -1,0 +1,11 @@
+{
+  "name": "Fabrice Job Extension",
+  "manifest_version": 2,
+  "version": "1.1",
+  "description" : "Extension avec des fonctionnalitées de facilitations" ,
+  "content_scripts": [{
+      "matches" : [ "http://*/*", "https://*/*"],
+      "js": ["script.js"]
+  }],
+  "browser_action": {"default_popup": "popup.html"}  
+}
